@@ -125,8 +125,7 @@ class OrderDispatcher {
       '• سرعة التسليم: $speedStars/5',
       '• التعامل والتواصل: $serviceStars/5',
       '• الملاحظات: $commentText',
-    ].join('
-');
+    ].join('');
 
     await Clipboard.setData(ClipboardData(text: text));
 
