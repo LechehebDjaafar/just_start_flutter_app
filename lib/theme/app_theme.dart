@@ -64,7 +64,7 @@ class JustStartTheme {
         scrolledUnderElevation: 2,
         centerTitle: false,
       ),
-      cardTheme: CardThemeData(
+      cardTheme: CardTheme(
         color: lightCard,
         elevation: 0,
         shape: RoundedRectangleBorder(
@@ -122,7 +122,7 @@ class JustStartTheme {
         scrolledUnderElevation: 2,
         centerTitle: false,
       ),
-      cardTheme: CardThemeData(
+      cardTheme: CardTheme(
         color: darkCard,
         elevation: 0,
         shape: RoundedRectangleBorder(
